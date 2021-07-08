@@ -1,10 +1,6 @@
 Rails.application.routes.draw do
-  root 'tweets#index'
-
-  devise_for :users
-
+  devise_for :users, controllers: { registrations: 'registrations' }
   resources :tweets
-
-  resources :users do
-  end
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root 'tweets#index'
 end
