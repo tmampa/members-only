@@ -6,6 +6,7 @@
 
 - Ruby v2.7.2
 - Ruby on Rails v6.1.3
+- Bulma framework
 
 ## Getting Started
 
