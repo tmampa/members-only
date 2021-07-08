@@ -1,6 +1,6 @@
 # Twitter Clone
 
-> Built a light weight version of Twitter with Ruby On Rails using Devise for authentication.
+> Built a light-weight version of Twitter with Ruby On Rails using Devise for authentication.
 
 ## Built With
 
