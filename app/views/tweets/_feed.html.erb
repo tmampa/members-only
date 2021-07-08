@@ -22,8 +22,10 @@
         </div>
         <div class="media-content">
           <div class="content">
+          <% if user_signed_in? %>
             <strong><%= tweet.user.name %></strong><br>
             <small>@<%= tweet.user.username %></small><br>
+          <% end %>
             <p><%= tweet.tweet %></p>
           </div>
           <% if user_signed_in? %>
