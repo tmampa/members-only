@@ -13,7 +13,7 @@ class TweetsController < ApplicationController
 
   # GET /tweets/new
   def new
-    @tweet = current_user.tweets.build
+    @tweet = Tweet.new
   end
 
   # GET /tweets/1/edit
