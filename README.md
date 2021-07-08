@@ -11,7 +11,7 @@
 
 ### To get a local copy up and running follow these simple example steps:
 
-- [Copy this link](https://github.com/ZeenatLawal/Twitter-Clone-ROR.git)
+- [Copy this link](https://github.com/tmampa/members-only.git)
 - Open your terminal or command line
 - Run `git clone` and Paste the link
 - Open the folder with your code editor
@@ -49,17 +49,17 @@ Open `http://localhost:3000/` in your browser.
 
 ## Author
 
-👤 **Zeenat Lawal**
+👤 **Tshephang Mampa**
 
-- GitHub: [@ZeenatLawal](https://github.com/ZeenatLawal)
-- Twitter: [@lawal_zeenat](https://twitter.com/lawal_zeenat)
-- LinkedIn: [Zeenat Lawal](https://www.linkedin.com/in/zeenatlawal/)
+- GitHub: [@tmampa](https://github.com/tmampa)
+- Twitter: [@tshephangm_](https://twitter.com/tshephangm_)
+- LinkedIn: [Tshephang Mampa](https://linkedin.com/in/tshephangmampa)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ZeenatLawal/Twitter-Clone-ROR/issues).
+Feel free to check the [issues page](https://github.com/tmampa/members-only/issues).
 
 ## Show your support
 
