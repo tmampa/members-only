@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # Assuming you have not yet modified this file, each configuration option below
 # is set to its default value. Note that some are commented out while others
 # are not: uncommented lines are intended to protect your configuration from
@@ -8,13 +6,14 @@
 #
 # Use this hook to configure devise mailer, warden hooks and so forth.
 # Many of these configuration options can be set straight in your model.
+# rubocop:disable Layout/LineLength
 Devise.setup do |config|
   # The secret key used by Devise. Devise uses this key to generate
   # random tokens. Changing this key will render invalid all existing
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
-  # config.secret_key = '91def2a6de9c17f85baf7f5c3134855de2606d0d3fb37634f38aa60516ce6e45294efac8518aeeb313762cb88d0d6a3bf5beeee9b5698abc5fc983f97137a109'
+  # config.secret_key = '31d82a5449c3b0e526c45e44e61125bf8bf1436a71b438f0739c80ad8a79dd764c6869cd2127ecb98e6346c76412d0c9dc748ac1eeeaacf2dc9b52c70e572927'
 
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
@@ -126,7 +125,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 12
 
   # Set up a pepper to generate the hashed password.
-  # config.pepper = 'af43dae3dd3bc615e113819e41bb3a0701ee0a82e11288bc3b0ebffbda1d178ed0644a26f56cbba9bc36a0843931a76076b556dd24217e82f8e12e0bb1675ebd'
+  # config.pepper = '425765a712b6d637151d99cf12decf6551abb525ab6aac4178d2b08d7821f735edd8daa24acc12a60660c4c57b672deaf1b87990d69a8be9074e4cfb05fea791'
 
   # Send a notification to the original email when the user's email is changed.
   # config.send_email_changed_notification = false
@@ -309,3 +308,5 @@ Devise.setup do |config|
   # changed. Defaults to true, so a user is signed in automatically after changing a password.
   # config.sign_in_after_change_password = true
 end
+
+# rubocop:enable Layout/LineLength
